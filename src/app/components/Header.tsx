@@ -46,7 +46,7 @@ export default function Header() {
           transition={{ duration: 0.8 }}
           className="text-2xl md:text-4xl lg:text-5xl font-extrabold text-green-700"
         >
-          CosmoCare
+          Elevate Store
         </motion.h1>
 
         <div className="md:hidden">

@@ -1,5 +1,4 @@
-import firstProductFirstImage from "../../../public/firstProductFirstImage.png";
-import firstProductSecondImage from "../../../public/firstProductSecondImage.png";
+import rosemary from "../../../public/rosemary.jpg";
 import { Product } from "../types/types";
 
 export const initialProducts : Array<Product> = [
@@ -14,6 +13,6 @@ export const initialProducts : Array<Product> = [
             "Clove Oil"
         ],
         price: 29.99,
-        images: [firstProductFirstImage, firstProductSecondImage]
+        images: [rosemary]
     }
 ];

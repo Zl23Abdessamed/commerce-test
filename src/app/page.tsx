@@ -157,7 +157,7 @@ function EnhancedAboutUs() {
             </h2>
             <div className="w-20 h-1 bg-yellow-400 mb-8"></div>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              At CosmoCare, we believe in the extraordinary power of nature&apos;s most precious ingredients.
+              At Elevate store, we believe in the extraordinary power of nature&apos;s most precious ingredients.
               Our journey began with a simple mission: to create hair care products that work in harmony with
               your hair&apos;s natural chemistry.
             </p>
@@ -265,7 +265,7 @@ function TestimonialsSection() {
   const testimonials = [
     {
       id: 1,
-      text: "After trying countless products for my damaged hair, CosmoCare's Repair Mask transformed my hair in just two weeks. It's now smoother, shinier, and so much more manageable!",
+      text: "After trying countless products for my damaged hair, Elevate store's Repair Mask transformed my hair in just two weeks. It's now smoother, shinier, and so much more manageable!",
       author: "Sarah Johnson",
       role: "Hair Stylist",
       image: "/api/placeholder/100/100"
@@ -279,7 +279,7 @@ function TestimonialsSection() {
     },
     {
       id: 3,
-      text: "As someone with sensitive skin, I appreciate that CosmoCare's products are gentle yet effective. The Scalp Treatment relieved my irritation while giving my hair incredible volume.",
+      text: "As someone with sensitive skin, I appreciate that Elevate store's products are gentle yet effective. The Scalp Treatment relieved my irritation while giving my hair incredible volume.",
       author: "Emily Rodriguez",
       role: "Beauty Blogger",
       image: "/api/placeholder/100/100"
@@ -398,7 +398,7 @@ function HairCareGuide() {
             <p className="text-lg text-gray-700 mb-10 leading-relaxed">
               Our experts have compiled their best advice for maintaining healthy,
               beautiful hair. Follow these simple tips to maximize the benefits of your
-              CosmoCare products.
+              Elevate store products.
             </p>
 
             <div className="space-y-8">
@@ -514,7 +514,7 @@ function EnhancedFooter() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* About Section */}
           <div>
-            <h3 className="text-xl font-bold text-white mb-6">CosmoCare</h3>
+            <h3 className="text-xl font-bold text-white mb-6">Elevate store</h3>
             <p className="mb-6">
               Premium natural hair care products designed to bring out your hair&apos;s natural beauty.
             </p>
@@ -536,11 +536,11 @@ function EnhancedFooter() {
             <ul className="space-y-4">
               <li className="flex items-center">
                 <FaPhone className="mr-3" />
-                <a href="tel:+123456789" className="hover:text-white transition-colors">+1 234 567 89</a>
+                <a href="tel:+18722821898" className="hover:text-white transition-colors">+18722821898</a>
               </li>
               <li className="flex items-center">
                 <MdEmail className="mr-3" />
-                <a href="mailto:info@cosmocare.com" className="hover:text-white transition-colors">info@cosmocare.com</a>
+                <a href="mailto:elevatehair.shop@gmail.com" className="hover:text-white transition-colors">elevatehair.shop@gmail.com</a>
               </li>
             </ul>
           </div>
@@ -567,7 +567,7 @@ function EnhancedFooter() {
         </div>
 
         <div className="text-center text-sm text-green-600 border-t border-green-800 pt-8">
-          &copy; {new Date().getFullYear()} CosmoCare. All rights reserved.
+          &copy; {new Date().getFullYear()} Elevate store. All rights reserved.
         </div>
       </div>
     </footer>
