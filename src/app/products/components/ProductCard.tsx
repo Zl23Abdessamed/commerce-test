@@ -1,4 +1,5 @@
 import { Product } from '@/app/types/types';
+import { createSlugFromName } from '@/app/utils/utils';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -8,12 +9,15 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ product }: ProductCardProps) {
+    // Convert product name to URL-friendly slug
+    const productSlug = createSlugFromName(product.name);
+    
     return (
         <motion.div
             className="relative bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow group"
             whileHover={{ scale: 1.05 }}
         >
-            <Link href={`/products/${product.id}`}>
+            <Link href={`/products/${productSlug}`}>
                 <Image
                     src={product.images[0]}
                     alt={product.name}

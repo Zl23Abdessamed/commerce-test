@@ -1,7 +1,7 @@
 import rosemary from "../../../public/rosemary.jpg";
 import { Product } from "../types/types";
 
-export const initialProducts : Array<Product> = [
+export const initialProducts: Array<Product> = [
     {
         id: 1,
         name: "Rosemary & Mint",
@@ -16,3 +16,8 @@ export const initialProducts : Array<Product> = [
         images: [rosemary]
     }
 ];
+
+
+export function createSlugFromName(name: string): string {
+    return name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+}

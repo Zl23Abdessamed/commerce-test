@@ -1,3 +1,5 @@
+// /products
+
 "use client"
 
 import { initialProducts } from "../utils/utils";
